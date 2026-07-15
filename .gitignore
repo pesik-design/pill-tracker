@@ -1,0 +1,15 @@
+# Windows / OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Приватне — НЕ публікувати: містить особисті медичні дані
+docs/specification.html

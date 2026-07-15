@@ -1,0 +1,45 @@
+/* Design tokens — світла тема трекера «пілюлі».
+   Усі кольори застосунку в одному місці. Зміни hex тут — і онови сторінку. */
+:root{
+  /* тло та поверхні */
+  --page:#eef1f8;      /* тло сторінки */
+  --bg:#f4f6fb;        /* тло контенту */
+  --card:#ffffff;      /* картки */
+  --card-2:#f8fafd;    /* друге тло (розгортання, поля) */
+
+  /* текст і лінії */
+  --ink:#191d27;       /* основний текст */
+  --ink-2:#3a414f;     /* вторинний текст */
+  --muted:#7a8290;     /* приглушений */
+  --faint:#aab1be;     /* ледь помітний */
+  --line:#eef0f5;      /* тонкі лінії */
+  --line-2:#e3e7ee;    /* межі полів */
+  --divider:#d9dde4;   /* роздільник у списках */
+  --divider-done:#c7ddcd;/* роздільник між прийнятими */
+
+  /* акценти (сенс-кольори) */
+  --azure:#3a86e0;     /* основний акцент — блакитний */
+  --azure-ink:#2f72c9; /* темніший блакитний (текст) */
+  --azure-soft:#eaf2fd;/* блакитна підкладка */
+  --azure-deep:#4f97e8;
+  --green:#28966a;     /* «прийнято» */
+  --green-ink:#1e875d;
+  --green-soft:#eaf4ee;
+  --amber:#bf882f;     /* «відкладено» (snooze) */
+  --amber-soft:#f7efdd;
+  --rose:#c26a99;      /* вагінальне / жіноче */
+  --rose-soft:#f8edf3;
+  --red:#cc584c;       /* «пропущено» / видалити */
+  --red-soft:#fae9e7;
+  --lime:#dff16a;
+
+  /* тіні */
+  --sh-sm:0 1px 2px rgba(30,42,72,.05);
+  --sh-card:0 1px 2px rgba(30,42,72,.04), 0 14px 34px -24px rgba(30,42,72,.42);
+  --sh-float:0 12px 26px -12px rgba(30,42,72,.42);
+  --sh-frame:0 30px 70px -40px rgba(28,40,72,.4);
+
+  --radius:18px;
+  --sans:"Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+  --mono:"Cascadia Code","SF Mono",ui-monospace,Consolas,monospace;
+}
